@@ -14,7 +14,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     //DPCrackDetection activation
-    DPCrackDetection *crackDetection = [[DPCrackDetection alloc] initWithLicenseKey:@"f7a888eaca3e1621b644329e"];
+    DPCrackDetection *crackDetection = [[DPCrackDetection alloc] initWithLicenseKey:@"b9f09d0e3d4c5d4d41efcc87"];
     //enable debug mode. Before publishing in the Appstore must set to NO
     crackDetection.debugMode = YES;
     //check app
