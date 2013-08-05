@@ -15,7 +15,7 @@
 {
     //DPCrackDetection activation
     DPCrackDetection *crackDetection = [[DPCrackDetection alloc] initWithLicenseKey:@"f7a888eaca3e1621b644329e"];
-    //enable debug mode
+    //enable debug mode. Before publishing in the Appstore must set to NO
     crackDetection.debugMode = YES;
     //check app
     [crackDetection checkCrackedAppAndGoToAppstoreWithAppleId:@"495655551" andExit:YES];
