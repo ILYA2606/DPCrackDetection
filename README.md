@@ -30,3 +30,16 @@ Purchase
 The license key is tied to a specific application. 
 
 To purchase a license key please e-mail dev@darknessproduction.com
+
+Example applications with DPCrackDetection in the Appstore
+================
+
+- iFile
+- iFullStat (1.2 and higher)
+- iTwister (1.3 and higher)
+- Poker Cheater
+- Darts Cheat
+- iScanner
+- Apps
+- AirSafe
+- Darkness Player
