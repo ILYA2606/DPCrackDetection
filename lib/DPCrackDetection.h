@@ -7,7 +7,7 @@
 #import <Foundation/Foundation.h>
 
 
-@interface DPCrackDetection4iOS : NSObject
+@interface DPCrackDetection : NSObject
 
 /***
  *  Activation debug mode. 

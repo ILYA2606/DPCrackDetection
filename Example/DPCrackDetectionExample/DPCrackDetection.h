@@ -7,7 +7,7 @@
 #import <Foundation/Foundation.h>
 
 
-@interface DPCrackDetection4iOS : NSObject
+@interface DPCrackDetection : NSObject
 
 /***
  *  Activation debug mode. 
@@ -39,7 +39,6 @@
  *  Application checking for the presence of cracking and redirect to Appstore for purchasing.
  *  @param appleId Apple ID for open in the Appstore
  *  @param isExit exiting app after detection crack
- *  @return YES if the application data compromised (cracked). NO if the application data is not compromised
  ***/
 
 - (void) checkCrackedAppAndGoToAppstoreWithAppleId:(NSString*)appleId andExit:(BOOL)isExit;

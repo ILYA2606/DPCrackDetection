@@ -7,15 +7,19 @@
 //
 
 #import "AppDelegate.h"
-#import "DPCrackDetection4iOS.h"
+#import "DPCrackDetection.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    DPCrackDetection4iOS *crackDetection = [[DPCrackDetection4iOS alloc] initWithLicenseKey:@"f7a888eaca3e1621b644329e"];
+    //DPCrackDetection activation
+    DPCrackDetection *crackDetection = [[DPCrackDetection alloc] initWithLicenseKey:@"f7a888eaca3e1621b644329e"];
+    //enable debug mode
     crackDetection.debugMode = YES;
+    //check app
     [crackDetection checkCrackedAppAndGoToAppstoreWithAppleId:@"495655551" andExit:YES];
+    
     return YES;
 }
 							

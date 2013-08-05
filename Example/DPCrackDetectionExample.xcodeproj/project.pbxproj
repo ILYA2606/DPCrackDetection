@@ -16,9 +16,7 @@
 		29E8C83017AF7ECD002582E9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 29E8C82F17AF7ECD002582E9 /* Default.png */; };
 		29E8C83217AF7ECD002582E9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29E8C83117AF7ECD002582E9 /* Default@2x.png */; };
 		29E8C83417AF7ECD002582E9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29E8C83317AF7ECD002582E9 /* Default-568h@2x.png */; };
-		29E8C83717AF7ECD002582E9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29E8C83517AF7ECD002582E9 /* MainStoryboard.storyboard */; };
-		29E8C83A17AF7ECD002582E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E8C83917AF7ECD002582E9 /* ViewController.m */; };
-		29E8C84517AF808C002582E9 /* libDPCrackDetection.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E8C84417AF808C002582E9 /* libDPCrackDetection.a */; };
+		29E8C84A17AF882D002582E9 /* libDPCrackDetection.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E8C84917AF882D002582E9 /* libDPCrackDetection.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,11 +33,8 @@
 		29E8C82F17AF7ECD002582E9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		29E8C83117AF7ECD002582E9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		29E8C83317AF7ECD002582E9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		29E8C83617AF7ECD002582E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		29E8C83817AF7ECD002582E9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		29E8C83917AF7ECD002582E9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		29E8C84317AF7FF7002582E9 /* DPCrackDetection4iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPCrackDetection4iOS.h; sourceTree = "<group>"; };
-		29E8C84417AF808C002582E9 /* libDPCrackDetection.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDPCrackDetection.a; sourceTree = "<group>"; };
+		29E8C84617AF87E2002582E9 /* DPCrackDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPCrackDetection.h; sourceTree = "<group>"; };
+		29E8C84917AF882D002582E9 /* libDPCrackDetection.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDPCrackDetection.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +45,7 @@
 				29E8C81E17AF7ECC002582E9 /* UIKit.framework in Frameworks */,
 				29E8C82017AF7ECC002582E9 /* Foundation.framework in Frameworks */,
 				29E8C82217AF7ECC002582E9 /* CoreGraphics.framework in Frameworks */,
-				29E8C84517AF808C002582E9 /* libDPCrackDetection.a in Frameworks */,
+				29E8C84A17AF882D002582E9 /* libDPCrackDetection.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,9 +85,6 @@
 				29E8C84017AF7FDA002582E9 /* DPCrackDetection */,
 				29E8C82C17AF7ECD002582E9 /* AppDelegate.h */,
 				29E8C82D17AF7ECD002582E9 /* AppDelegate.m */,
-				29E8C83517AF7ECD002582E9 /* MainStoryboard.storyboard */,
-				29E8C83817AF7ECD002582E9 /* ViewController.h */,
-				29E8C83917AF7ECD002582E9 /* ViewController.m */,
 				29E8C82417AF7ECC002582E9 /* Supporting Files */,
 			);
 			path = DPCrackDetectionExample;
@@ -115,8 +107,8 @@
 		29E8C84017AF7FDA002582E9 /* DPCrackDetection */ = {
 			isa = PBXGroup;
 			children = (
-				29E8C84317AF7FF7002582E9 /* DPCrackDetection4iOS.h */,
-				29E8C84417AF808C002582E9 /* libDPCrackDetection.a */,
+				29E8C84617AF87E2002582E9 /* DPCrackDetection.h */,
+				29E8C84917AF882D002582E9 /* libDPCrackDetection.a */,
 			);
 			name = DPCrackDetection;
 			sourceTree = "<group>";
@@ -176,7 +168,6 @@
 				29E8C83017AF7ECD002582E9 /* Default.png in Resources */,
 				29E8C83217AF7ECD002582E9 /* Default@2x.png in Resources */,
 				29E8C83417AF7ECD002582E9 /* Default-568h@2x.png in Resources */,
-				29E8C83717AF7ECD002582E9 /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,7 +180,6 @@
 			files = (
 				29E8C82A17AF7ECC002582E9 /* main.m in Sources */,
 				29E8C82E17AF7ECD002582E9 /* AppDelegate.m in Sources */,
-				29E8C83A17AF7ECD002582E9 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,14 +192,6 @@
 				29E8C82717AF7ECC002582E9 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		29E8C83517AF7ECD002582E9 /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				29E8C83617AF7ECD002582E9 /* en */,
-			);
-			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -240,7 +222,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -264,7 +246,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -277,6 +259,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DPCrackDetectionExample/DPCrackDetectionExample-Prefix.pch";
 				INFOPLIST_FILE = "DPCrackDetectionExample/DPCrackDetectionExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/DPCrackDetectionExample\"",
@@ -292,6 +275,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DPCrackDetectionExample/DPCrackDetectionExample-Prefix.pch";
 				INFOPLIST_FILE = "DPCrackDetectionExample/DPCrackDetectionExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/DPCrackDetectionExample\"",
