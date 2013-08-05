@@ -19,8 +19,8 @@
 @property (nonatomic) BOOL debugMode;
 
 /***
- *  Initialize DPCrackDetection4iOS
- *  @param licenseKey License Key for activation DPCrackDetection4iOS
+ *  Initialize DPCrackDetection
+ *  @param licenseKey License Key for activation DPCrackDetection
  *  @return An initialized object.
  ***/
 

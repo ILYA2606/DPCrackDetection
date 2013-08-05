@@ -19,8 +19,8 @@
 @property (nonatomic) BOOL debugMode;
 
 /***
- *  Initialize DPCrackDetection4iOS
- *  @param licenseKey License Key for activation DPCrackDetection4iOS
+ *  Initialize DPCrackDetection
+ *  @param licenseKey License Key for activation DPCrackDetection
  *  @return An initialized object.
  ***/
 
@@ -39,7 +39,6 @@
  *  Application checking for the presence of cracking and redirect to Appstore for purchasing.
  *  @param appleId Apple ID for open in the Appstore
  *  @param isExit exiting app after detection crack
- *  @return YES if the application data compromised (cracked). NO if the application data is not compromised
  ***/
 
 - (void) checkCrackedAppAndGoToAppstoreWithAppleId:(NSString*)appleId andExit:(BOOL)isExit;

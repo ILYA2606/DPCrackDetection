@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2947380B17AF8D25001FCBCF /* libDPCrackDetection.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2947380A17AF8D25001FCBCF /* libDPCrackDetection.a */; };
 		29E8C81E17AF7ECC002582E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E8C81D17AF7ECC002582E9 /* UIKit.framework */; };
 		29E8C82017AF7ECC002582E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E8C81F17AF7ECC002582E9 /* Foundation.framework */; };
 		29E8C82217AF7ECC002582E9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E8C82117AF7ECC002582E9 /* CoreGraphics.framework */; };
@@ -16,10 +17,11 @@
 		29E8C83017AF7ECD002582E9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 29E8C82F17AF7ECD002582E9 /* Default.png */; };
 		29E8C83217AF7ECD002582E9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29E8C83117AF7ECD002582E9 /* Default@2x.png */; };
 		29E8C83417AF7ECD002582E9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29E8C83317AF7ECD002582E9 /* Default-568h@2x.png */; };
-		29E8C84A17AF882D002582E9 /* libDPCrackDetection.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E8C84917AF882D002582E9 /* libDPCrackDetection.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2947380917AF8D25001FCBCF /* DPCrackDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPCrackDetection.h; sourceTree = "<group>"; };
+		2947380A17AF8D25001FCBCF /* libDPCrackDetection.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDPCrackDetection.a; sourceTree = "<group>"; };
 		29E8C81A17AF7ECC002582E9 /* DPCrackDetectionExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DPCrackDetectionExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29E8C81D17AF7ECC002582E9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		29E8C81F17AF7ECC002582E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -33,8 +35,6 @@
 		29E8C82F17AF7ECD002582E9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		29E8C83117AF7ECD002582E9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		29E8C83317AF7ECD002582E9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		29E8C84617AF87E2002582E9 /* DPCrackDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPCrackDetection.h; sourceTree = "<group>"; };
-		29E8C84917AF882D002582E9 /* libDPCrackDetection.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDPCrackDetection.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +45,7 @@
 				29E8C81E17AF7ECC002582E9 /* UIKit.framework in Frameworks */,
 				29E8C82017AF7ECC002582E9 /* Foundation.framework in Frameworks */,
 				29E8C82217AF7ECC002582E9 /* CoreGraphics.framework in Frameworks */,
-				29E8C84A17AF882D002582E9 /* libDPCrackDetection.a in Frameworks */,
+				2947380B17AF8D25001FCBCF /* libDPCrackDetection.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,8 +107,8 @@
 		29E8C84017AF7FDA002582E9 /* DPCrackDetection */ = {
 			isa = PBXGroup;
 			children = (
-				29E8C84617AF87E2002582E9 /* DPCrackDetection.h */,
-				29E8C84917AF882D002582E9 /* libDPCrackDetection.a */,
+				2947380917AF8D25001FCBCF /* DPCrackDetection.h */,
+				2947380A17AF8D25001FCBCF /* libDPCrackDetection.a */,
 			);
 			name = DPCrackDetection;
 			sourceTree = "<group>";
