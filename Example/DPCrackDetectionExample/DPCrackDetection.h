@@ -20,7 +20,9 @@
 
 /***
  *  Initialize DPCrackDetection
- *  @param licenseKey License Key for activation DPCrackDetection
+ *  @param licenseKey License Key for activation DPCrackDetection.
+ *  The license key is tied to a specific application. 
+ *  To purchase a license key please e-mail dev@darknessproduction.com
  *  @return An initialized object.
  ***/
 
